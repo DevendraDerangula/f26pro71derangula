@@ -3,3 +3,18 @@ extends layout
 
 block content
   h1= title
+
+  -
+    let results = [
+      { name: "Niagara Falls", country: "Canada", height: 51 },
+      { name: "Angel Falls", country: "Venezuela", height: 979 },
+      { name: "Victoria Falls", country: "Zimbabwe", height: 108 }
+    ]
+
+  div.container-fluid
+    div.row
+      each item in results
+        div.col-sm-2
+          p Name: #{item.name}
+          p Country: #{item.country}
+          p Height: #{item.height} meters
