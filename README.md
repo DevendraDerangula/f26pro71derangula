@@ -19,3 +19,12 @@ Devendra Derangula
 My Express application is deployed on Render.
 
 https://f26pro71derangula.onrender.com
+
+## Resource Class
+
+Class: Waterfalls
+
+Attributes:
+- name (String)
+- country (String)
+- height (Number, in meters)
